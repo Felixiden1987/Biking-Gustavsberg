@@ -92,7 +92,12 @@ main {
     /* push main content down from header */
     margin-top: 93px;
 }
-
+/* Hero section */
+#biker {
+    height: 600px;
+    width: 100%;
+    background: url("../images/8E5124E7-13D1-4AFE-AB89-F0C50380C5EF_1_105_c.jpeg") no-repeat center center / cover;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -102,8 +107,9 @@ main {
     list-style-type: none;
     background-color: #9ab2b8;
 }
-#social-networks > i {
-    font-size: 160%;
+
+#social-networks i {
+    font-size: 200%;
     padding: 5%;
     color: rgb(250, 209, 158);
 }
@@ -152,5 +158,13 @@ main {
 
 
 
+
+}
+/* Media Query for desktops and larger (1157px and up) */
+@media screen and (min-width: 1157px) {
+    main {
+        margin-top: 75px;
+
+    }
 
 }
