@@ -99,14 +99,14 @@ main {
 
 /* Biker section */
 #biker {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/8E5124E7-13D1-4AFE-AB89-F0C50380C5EF_1_105_c.jpeg") no-repeat center center / cover;
     position: relative;
 }
 
 #biker-text {
-    background-color:  #b8cdd397;
+    background-color: #b8cdd397;
     bottom: 30%;
     width: 80%;
     padding-right: 50px;
@@ -114,9 +114,26 @@ main {
     text-align: right;
     min-height: 100px;
 }
-#biker-text > h2, #biker-text > h3 {
+
+#biker-text>h2,
+#biker-text>h3 {
     font-family: 'Ubuntu';
-  
+
+}
+#about-text h1 {
+    border-bottom: 2px solid #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+#join-text h1 {
+    border-bottom: 2px solid #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+/* Form */
+#join-us {
+
+}
+#join-us-form {
+
 }
 
 /* Footer */
@@ -127,7 +144,6 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: #9ab2b8;
-  
 }
 
 #social-networks i {

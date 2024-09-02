@@ -20,7 +20,7 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Mountainbike Gustavsberg</h1>
+            <h1 id="logo">Mountainbike Gustavsberg <i class="fa-solid fa-person-biking"></i></h1> 
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-person-biking"></i></label>
@@ -45,19 +45,37 @@
         <section id="about">
             <div id="about-text">
                 <h1>Who are we?<i class="fa-solid fa-people-group"></i></h1>
-                <h3>We're a bunch of people with a common passion: Riding trails on a Mountainbike!</h3>
+                <h3>We're a friendly bunch of people with a common passion: Riding trails on a Mountainbike! <br>Ps. We
+                    also enjoy
+                    having a drink at the "After Bike" place, located in the harbour with fantastic view over the
+                    surroundings.
+                </h3>
             </div>
         </section>
         <section id="join">
             <div id="join-text">
                 <h1>Why don't you join us?<i class="fa-regular fa-face-smile-wink"></i></h1>
                 <h3>We are open for new people to join us, regardlessly your riding level. <br>
-                    Just add your contact info below!<i class="fa-solid fa-arrow-down"></i></h3>
+                    We are all about having fun on the bikes.
+                    So what are you waiting for? Just add your contact info below!<i class="fa-solid fa-arrow-down"></i>
+                </h3>
             </div>
         </section>
+        <!-- Form goes here -->
+        <section id="join-us">
+            <form id="join-us-form" action="https://formdump.codeinstitute.net" method="POST">
+                <div>
+                    <label for="name-field">Name</label>
+                    <input type="text" id="name-field" class="text-input" required>
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input type="email" id="email-field" class="text-input" required>
+                </div>
 
-
-
+                <button type="submit" class="join-button">Let's Ride!</button>
+            </form>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
@@ -65,7 +83,7 @@
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            <li><a href="https://www.instagram.com/gustavsbergmtb" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
