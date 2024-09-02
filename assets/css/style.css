@@ -85,7 +85,7 @@ main {
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
-    margin-top: 97px;
+    margin-top: 93px;
 }
 
 /* Footer */
@@ -93,6 +93,7 @@ footer {
     background-color: #9ab2b8;
     color: rgb(250, 209, 158);
 }
+
 /* Media Query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 nav {
@@ -116,7 +117,20 @@ nav {
     margin: 0 0.5rem; 
     line-height: 75px;
 }
+/* Main content */ 
 main {
+    /* push main down from header */ 
     margin-top: 155px;
 }
+}
+/* Media Query for laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+#menu a:hover {
+    border-bottom: 2px solid #3a3a3a;
+
+    }
+
+
+
+
 }
