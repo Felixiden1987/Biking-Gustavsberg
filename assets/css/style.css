@@ -57,6 +57,7 @@ h1 {
 .active {
     border-bottom: 2px solid #3a3a3a;
 }
+
 /* Navbar styles with toggle dropdown menu */
 nav {
     position: absolute;
@@ -67,18 +68,22 @@ nav {
     box-shadow: 0 5px 5px #3a3a3a;
     /* hides menu-text */
     display: none;
-    top: 100%; 
+    top: 100%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     background-color: rgb(252, 252, 252);
@@ -89,44 +94,59 @@ main {
 }
 
 /* Footer */
-footer {
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
     background-color: #9ab2b8;
+}
+#social-networks > i {
+    font-size: 160%;
+    padding: 5%;
     color: rgb(250, 209, 158);
 }
 
 /* Media Query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-} 
-#menu {
-    display: flex;
-}  
-#menu > li {
-    padding-left: 1rem;
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 300%;
+        margin: 0 0.5rem;
+        line-height: 75px;
+    }
+
+    /* Main content */
+    main {
+        /* push main down from header */
+        margin-top: 155px;
+    }
 }
-.nav-toggle-label {
-    display: none;
-}
-#logo {
-    font-size: 300%;
-    margin: 0 0.5rem; 
-    line-height: 75px;
-}
-/* Main content */ 
-main {
-    /* push main down from header */ 
-    margin-top: 155px;
-}
-}
+
 /* Media Query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-#menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
+    #menu a:hover {
+        border-bottom: 2px solid #3a3a3a;
 
     }
 
