@@ -84,6 +84,8 @@ main {
     background-color: rgb(252, 252, 252);
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
+    /* push main content down from header */
+    margin-top: 97px;
 }
 
 /* Footer */
