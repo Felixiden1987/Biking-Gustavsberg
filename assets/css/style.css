@@ -118,26 +118,32 @@ main {
 #biker-text>h2,
 #biker-text>h3 {
     font-family: 'Ubuntu';
+    text-shadow: 1px 1px 1px #3a3a3a;
 
 }
 
 #about-text h1 {
     border-bottom: 2px solid #9ab2b8;
+    text-shadow: 1px 1px 1px #3a3a3a;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
+    margin-top: 10px;
 }
 #about-text h3 {
     padding: 0 1rem;
+    text-shadow: 1px 1px 1px #3a3a3a;
 }
 
 #join-text h1 {
     border-bottom: 2px solid #9ab2b8;
+    text-shadow: 1px 1px 1px #3a3a3a;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
 }
 
 #join-text h3 {
     border-bottom: 2px solid #9ab2b8;
+    text-shadow: 1px 1px 1px #3a3a3a;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
 }
@@ -150,10 +156,32 @@ main {
 #join-us-form {
     color: rgb(250, 209, 158);
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px 1px #3a3a3a;
     padding: 0 1rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: x-large;
     
 }
+.text-input {
+    margin: 5px 0 5px 0;
+    background-color: #f3f3f3dd;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
 
+}
+.join-button {
+    font-family: 'Permanent Marker';
+    font-size: x-large;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+/* Photos */ 
+#photos img {
+    width: 100%;
+}
 
 /* Footer */
 #social-networks {
@@ -169,6 +197,17 @@ main {
     font-size: 200%;
     padding: 5%;
     color: rgb(250, 209, 158);
+}
+/* Media Query for tablets and larger (576px and up) */
+@media screen and (min-width: 576px) {
+    #logo {
+        margin-top: 5px;
+    }
+    
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media Query for tablets and larger (768px and up) */
