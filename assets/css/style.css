@@ -25,6 +25,8 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(250, 209, 158);
+    text-shadow: 1px 1px 1px #3a3a3a;
+
 }
 
 /* header */
@@ -87,10 +89,13 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+#logo {
+    text-shadow: 2px 2px 2px #3a3a3a;
 
+}
 /* Main content */
 main {
-    background-color: #b8cdd3d8;
+    background-color:#b8cdd3d8;
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
@@ -106,7 +111,7 @@ main {
 }
 
 #biker-text {
-    background-color: #b8cdd397;
+    background-color: #b8cdd3e5;
     bottom: 30%;
     width: 80%;
     padding-right: 50px;
@@ -130,7 +135,7 @@ main {
     margin-top: 10px;
 }
 
-#about-text h3 {
+#about-text h2 {
     padding: 0 1rem;
     text-shadow: 1px 1px 1px #3a3a3a;
 }
@@ -142,7 +147,7 @@ main {
     padding: 0 1rem;
 }
 
-#join-text h3 {
+#join-text h2 {
     border-bottom: 2px solid #9ab2b8;
     text-shadow: 1px 1px 1px #3a3a3a;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -152,7 +157,7 @@ main {
 /* Form */
 #join-us {
     margin-bottom: 25px;
-    
+
 }
 
 #join-us-form {
@@ -163,7 +168,7 @@ main {
     margin-top: 50px;
     margin-bottom: 10px;
     font-size: x-large;
-    
+
 }
 
 .text-input {
@@ -186,7 +191,9 @@ main {
 #photos img {
     width: 100%;
 }
-
+main #photos {
+ background-color:#9ab2b8;
+}
 /* Footer */
 #social-networks {
     text-align: center;
