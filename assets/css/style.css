@@ -129,6 +129,7 @@ main {
     padding: 0 1rem;
     margin-top: 10px;
 }
+
 #about-text h3 {
     padding: 0 1rem;
     text-shadow: 1px 1px 1px #3a3a3a;
@@ -150,7 +151,7 @@ main {
 
 /* Form */
 #join-us {
-    
+    margin-bottom: 25px;
 }
 
 #join-us-form {
@@ -161,24 +162,29 @@ main {
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: x-large;
-    
+
 }
+
 .text-input {
-    margin: 5px 0 5px 0;
+    margin: 1px 0 1px 0;
     background-color: #f3f3f3dd;
+    font-size: x-large;
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    
-    
+    height: 30px;
+
+
 
 }
+
 .join-button {
     font-family: 'Permanent Marker';
     font-size: x-large;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-/* Photos */ 
+
+/* Photos */
 #photos img {
     width: 100%;
 }
@@ -198,12 +204,13 @@ main {
     padding: 5%;
     color: rgb(250, 209, 158);
 }
+
 /* Media Query for tablets and larger (576px and up) */
 @media screen and (min-width: 576px) {
     #logo {
         margin-top: 5px;
     }
-    
+
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -243,10 +250,12 @@ main {
         /* push main down from header */
         margin-top: 155px;
     }
+
     .join-button:hover {
-        color:rgb(250, 209, 158);
+        color: rgb(250, 209, 158);
         background-color: #9ab2b8;
     }
+
     #photos {
         column-count: 3;
         column-gap: 0;
@@ -259,10 +268,7 @@ main {
         border-bottom: 2px solid #3a3a3a;
 
     }
-    #photos {
-        column-count: 3;
-        column-gap: 0;
-    }
+
 
 
 
