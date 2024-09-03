@@ -144,14 +144,14 @@ main {
 
 /* Form */
 #join-us {
-    background-position: center;
+    
 }
 
 #join-us-form {
     color: rgb(250, 209, 158);
     font-family: 'Ubuntu', sans-serif;
     padding: 0 1rem;
-    flex-direction: column;
+    
 }
 
 
