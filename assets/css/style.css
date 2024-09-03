@@ -120,21 +120,40 @@ main {
     font-family: 'Ubuntu';
 
 }
+
 #about-text h1 {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #9ab2b8;
     box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
 }
+#about-text h3 {
+    padding: 0 1rem;
+}
+
 #join-text h1 {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #9ab2b8;
     box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
 }
+
+#join-text h3 {
+    border-bottom: 2px solid #9ab2b8;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+}
+
 /* Form */
 #join-us {
-
+    background-position: center;
 }
+
 #join-us-form {
-
+    color: rgb(250, 209, 158);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 1rem;
+    flex-direction: column;
 }
+
 
 /* Footer */
 #social-networks {
@@ -184,6 +203,10 @@ main {
     main {
         /* push main down from header */
         margin-top: 155px;
+    }
+    .join-button:hover {
+        color:rgb(250, 209, 158);
+        background-color: #9ab2b8;
     }
 }
 
