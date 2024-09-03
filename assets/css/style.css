@@ -247,6 +247,10 @@ main {
         color:rgb(250, 209, 158);
         background-color: #9ab2b8;
     }
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 
 /* Media Query for laptops and larger (992px and up) */
@@ -255,7 +259,10 @@ main {
         border-bottom: 2px solid #3a3a3a;
 
     }
-
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 
 
 
