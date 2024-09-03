@@ -89,13 +89,15 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 #logo {
     text-shadow: 2px 2px 2px #3a3a3a;
 
 }
+
 /* Main content */
 main {
-    background-color:#b8cdd3d8;
+    background-color: #b8cdd3d8;
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
@@ -191,9 +193,11 @@ main {
 #photos img {
     width: 100%;
 }
+
 main #photos {
- background-color:#9ab2b8;
+    background-color: #9ab2b8;
 }
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -272,12 +276,10 @@ main #photos {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
-
     }
-
-
-
-
+    #social-networks a:hover {
+        border-bottom: 2px solid #3a3a3a;
+        
 }
 
 /* Media Query for desktops and larger (1157px and up) */
