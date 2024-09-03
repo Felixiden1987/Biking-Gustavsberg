@@ -92,6 +92,7 @@ nav {
 
 #logo {
     text-shadow: 2px 2px 2px #3a3a3a;
+    font-weight: 400;
 
 }
 
@@ -157,10 +158,6 @@ main {
 }
 
 /* Form */
-#join-us {
-    margin-bottom: 25px;
-
-}
 
 #join-us-form {
     color: rgb(250, 209, 158);
@@ -168,7 +165,7 @@ main {
     text-shadow: 1px 1px 1px #3a3a3a;
     padding: 0 1rem;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     font-size: x-large;
 
 }
@@ -252,7 +249,7 @@ main #photos {
         font-size: 300%;
         margin: 0 0.5rem;
         line-height: 75px;
-        text-shadow: 1px 1px 1px #3a3a3a;
+       
     }
 
     /* Main content */
@@ -277,16 +274,18 @@ main #photos {
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
     }
+
     #social-networks a:hover {
         border-bottom: 2px solid #3a3a3a;
-        
-}
-
-/* Media Query for desktops and larger (1157px and up) */
-@media screen and (min-width: 1157px) {
-    main {
-        margin-top: 75px;
 
     }
 
+    /* Media Query for desktops and larger (1157px and up) */
+    @media screen and (min-width: 1157px) {
+        main {
+            margin-top: 75px;
+
+        }
+
+    }
 }
