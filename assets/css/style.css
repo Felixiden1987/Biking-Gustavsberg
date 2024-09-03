@@ -152,6 +152,7 @@ main {
 /* Form */
 #join-us {
     margin-bottom: 25px;
+    
 }
 
 #join-us-form {
@@ -159,7 +160,7 @@ main {
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 1px 1px 1px #3a3a3a;
     padding: 0 1rem;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-bottom: 10px;
     font-size: x-large;
     
