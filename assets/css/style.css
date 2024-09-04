@@ -25,7 +25,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(255, 192, 115);
-    text-shadow: 1px 1px 1px #3a3a3a;
+    text-shadow: 1px 1px 1px #000000;
 
 }
 
@@ -101,7 +101,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #b8cdd3d8;
+    background-color: #b8cdd3;
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
