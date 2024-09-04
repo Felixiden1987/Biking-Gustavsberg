@@ -274,6 +274,9 @@ main #photos {
 
 /* Media Query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+    main {
+        margin-top: 80px;
+    }
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
     }
@@ -301,7 +304,7 @@ main #photos {
 /* Media Query for desktops and larger screens (2560px and up) */
 @media screen and (min-width: 2560px) {
     main {
-        margin-top: 80px;
+        margin-top: 85px;
 
     }
 }
