@@ -36,7 +36,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 5px 5px #3a3a3a;
+    box-shadow: 0 3px 5px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -258,7 +258,7 @@ main #photos {
     /* Main content */
     main {
         /* push main down from header */
-        margin-top: 151px;
+        margin-top: 155px;
     }
 
     .join-button:hover {
