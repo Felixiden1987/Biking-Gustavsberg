@@ -91,7 +91,7 @@ nav {
 }
 
 #logo {
-    font-style: italic;
+    font-style: normal;
     color:#3a3a3a;
     text-shadow: 1px 1px 1px rgb(250, 209, 158);
     font-weight: 400;
@@ -105,7 +105,7 @@ main {
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
-    margin-top: 74px;
+    margin-top: 75px;
 }
 
 /* Biker section */
@@ -120,10 +120,12 @@ main {
     background-color: #b8cdd3e5;
     bottom: 30%;
     width: 80%;
-    padding-right: 50px;
-    padding-top: 10px;
-    text-align: right;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
     min-height: 100px;
+    padding: 0 1rem;
 }
 
 #biker-text>h2,
@@ -147,16 +149,14 @@ main {
 }
 
 #join-text h1 {
-    border-bottom: 2px solid #9ab2b8;
-    text-shadow: 1px 1px 1px #3a3a3a;
-    box-shadow: 0 2px 2px #3a3a3a;
+    
+    
+    
     padding: 0 1rem;
 }
 
 #join-text h2 {
-    border-bottom: 2px solid #9ab2b8;
-    text-shadow: 1px 1px 1px #3a3a3a;
-    box-shadow: 0 2px 2px #3a3a3a;
+    
     padding: 0 1rem;
 }
 
@@ -212,6 +212,7 @@ main #photos {
     font-size: 200%;
     padding: 5%;
     color: rgb(250, 209, 158);
+    
 }
 
 /* Media Query for tablets and larger (576px and up) */
@@ -250,7 +251,6 @@ main #photos {
 
     #logo {
         font-size: 300%;
-        margin: 0 0.5rem;
         line-height: 75px;
        
     }
@@ -258,7 +258,7 @@ main #photos {
     /* Main content */
     main {
         /* push main down from header */
-        margin-top: 155px;
+        margin-top: 151px;
     }
 
     .join-button:hover {
@@ -291,4 +291,11 @@ main #photos {
         }
 
     }
+/* Media Query for desktops and larger screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+    main {
+        margin-top: 80px;
+
+    }
+}
 }
