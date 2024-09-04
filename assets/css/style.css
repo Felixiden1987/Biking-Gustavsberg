@@ -24,7 +24,7 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(250, 209, 158);
+    color: rgb(255, 192, 115);
     text-shadow: 1px 1px 1px #3a3a3a;
 
 }
@@ -93,7 +93,7 @@ nav {
 #logo {
     font-style: normal;
     color:#3a3a3a;
-    text-shadow: 1px 1px 1px rgb(250, 209, 158);
+    text-shadow: 1px 1px 1px rgb(255, 192, 115);
     font-weight: 400;
     letter-spacing: 4px;
 
@@ -163,7 +163,7 @@ main {
 /* Form */
 
 #join-us-form {
-    color: rgb(250, 209, 158);
+    color: rgb(255, 192, 115);
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 1px 1px 1px #3a3a3a;
     padding: 0 1rem;
@@ -211,7 +211,7 @@ main #photos {
 #social-networks i {
     font-size: 200%;
     padding: 5%;
-    color: rgb(250, 209, 158);
+    color: rgb(255, 192, 115);
     
 }
 
@@ -262,7 +262,7 @@ main #photos {
     }
 
     .join-button:hover {
-        color: rgb(250, 209, 158);
+        color: rgb(255, 192, 115);
         background-color: #9ab2b8;
     }
 
