@@ -298,4 +298,11 @@ main #photos {
 
     }
 }
+/* Media Query for desktops and larger screens (2560px and up) */
+@media screen and (min-width: 2560px) {
+    main {
+        margin-top: 80px;
+
+    }
+}
 }
