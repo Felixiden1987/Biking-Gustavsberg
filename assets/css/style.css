@@ -21,7 +21,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(250, 209, 158);
@@ -91,7 +91,9 @@ nav {
 }
 
 #logo {
-    text-shadow: 2px 2px 2px #000000;
+    font-style: italic;
+    color:#3a3a3a;
+    text-shadow: 1px 1px 1px rgb(250, 209, 158);
     font-weight: 400;
     letter-spacing: 4px;
 
@@ -103,7 +105,7 @@ main {
     /* make main take up any surplus space to push footer down to bootom */
     flex: 1 0 auto;
     /* push main content down from header */
-    margin-top: 93px;
+    margin-top: 74px;
 }
 
 /* Biker section */
