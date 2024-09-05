@@ -71,7 +71,7 @@ email-address without an @. The submit button also works.
 ## Credits 
 ### Content 
 - The code to make the social networks links was taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.7-creating-the-footer) Project.
-- Code Institute in general should be credited for teaching and inspire me to make a project like this. 
+- Code Institute in general should be credited for teaching and inspire me when making the code to the project. 
 
 ### Media 
 - All the photos include myself in them, and are from my own library. 
