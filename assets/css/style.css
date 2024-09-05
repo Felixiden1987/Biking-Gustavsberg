@@ -134,7 +134,7 @@ main {
     text-shadow: 1px 1px 1px #3a3a3a;
 
 }
-
+/* About section */
 #about-text h1 {
     border-bottom: 2px solid #9ab2b8;
     text-shadow: 1px 1px 1px #3a3a3a;
@@ -148,17 +148,6 @@ main {
     text-shadow: 1px 1px 1px #3a3a3a;
 }
 
-#join-text h1 {
-    
-    
-    
-    padding: 0 1rem;
-}
-
-#join-text h2 {
-    
-    padding: 0 1rem;
-}
 
 /* Form */
 
@@ -171,6 +160,13 @@ main {
     margin-bottom: 35px;
     font-size: x-large;
 
+}
+#join-text h1 {
+    padding: 0 1rem;
+}
+
+#join-text h2 {
+    padding: 0 1rem;
 }
 
 .text-input {
@@ -222,6 +218,7 @@ main #photos {
     }
 
     #photos {
+        /* Make photos view in a row of 2 */
         column-count: 2;
         column-gap: 0;
     }
@@ -261,12 +258,9 @@ main #photos {
         margin-top: 155px;
     }
 
-    .join-button:hover {
-        color: rgb(255, 192, 115);
-        background-color: #9ab2b8;
-    }
 
     #photos {
+        /* Make photos show in a row of 3 */
         column-count: 3;
         column-gap: 0;
     }
@@ -275,13 +269,19 @@ main #photos {
 /* Media Query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     main {
+        /* Push main down from header */
         margin-top: 80px;
     }
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
     }
-
+    .join-button:hover {
+        /* Make button change color when hovered */
+        color: rgb(255, 192, 115);
+        background-color: #9ab2b8;
+    }
     #social-networks a:hover {
+        /* Make a line under logo while hovered */
         border-bottom: 2px solid #3a3a3a;
 
     }
@@ -289,6 +289,7 @@ main #photos {
     /* Media Query for desktops and larger (1157px and up) */
     @media screen and (min-width: 1157px) {
         main {
+            /* Push main down from header */
             margin-top: 75px;
 
         }
@@ -297,6 +298,7 @@ main #photos {
 /* Media Query for desktops and larger screens (1440px and up) */
 @media screen and (min-width: 1440px) {
     main {
+        /* Push main down from header */
         margin-top: 80px;
 
     }
@@ -304,6 +306,7 @@ main #photos {
 /* Media Query for desktops and larger screens (2560px and up) */
 @media screen and (min-width: 2560px) {
     main {
+        /* Push main down from header */
         margin-top: 85px;
 
     }
